@@ -1,0 +1,12 @@
+name: ml-sentinel2
+channels:
+  - conda-forge
+dependencies:
+  - jupyter=1.0.*
+  - matplotlib=3.1.*
+  - numpy=1.17.*
+  - pip=19.3.*
+  - python=3.7.*
+  - rasterio=1.1.*
+  - pip:
+    - opencv-python==4.1.*
