@@ -1,5 +1,7 @@
 name: ml-sentinel2
 channels:
+  - pytorch
+  - fastai
   - conda-forge
 dependencies:
   - jupyter=1.0.*
@@ -8,5 +10,6 @@ dependencies:
   - pip=19.3.*
   - python=3.7.*
   - rasterio=1.1.*
+  - fastai=1.0.*
   - pip:
     - opencv-python==4.1.*
